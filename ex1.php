@@ -61,6 +61,6 @@
     </table>
 
     <h1>4. Take a screenshot that verifies, you have set up the development environment and include it as an image in ex1.php.</h1>
-    <img src="C:\Users\Käyttäjä\OneDrive\Tiedostot\Web Development\Web_Programming\images\screenshot.png">
+    <img src="screenshot.png">
 </body>
 </html>
