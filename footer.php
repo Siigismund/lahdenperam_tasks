@@ -73,7 +73,14 @@
                                 &copy; Copyright 2023 - Liverpool Fan Club - All Rights Reserved.
                             </div>
                             <div class="col-md-6 order-1 order-md-1 float-right">
-                                Sitemap - Privacy Policy - Terms & Conditions - About
+                            <?php
+                            $name = $_SERVER['PHP_SELF'];
+                            $filename=basename($name);
+                            
+                                
+                               // echo "Last modified on " .
+                               echo "Last modified on " .date("F d Y H:i:s.", filemtime($filename));
+                            ?>
                             </div>
                         </div>
                     </div>
