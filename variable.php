@@ -25,7 +25,7 @@
     </div>
     <div class="row">
         <div class="col">
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" name="Submit">
         </div>
     </div>
     </form>
