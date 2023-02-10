@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first PHP page</title>
-</head>
+<?php
+    $title = "Excersice 1";
+    include 'header.php'
+?>
+<br>
+
 <body>
     <h1>3.1. Write a simple PHP script to print your information (Name and your groupid).</h1>
     <?php
@@ -64,3 +62,7 @@
     <img src="screenshot.png">
 </body>
 </html>
+
+<?php
+    include 'footer.php'
+?>
