@@ -30,7 +30,7 @@ if(isset($_POST['submit'])){
         echo "Your information is added succesfully";
     }
     else{
-        echo "Error:" . $conn -> error;
+        echo "Error:" . $conn->error;
     }
 }
 ?>
