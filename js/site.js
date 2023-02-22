@@ -16,9 +16,31 @@ function add(){
     //console.log
 
 
+    /*
 //function to change the background color of the page
 function changeColor(where, newColor){
     if(where == "background"){
         document.body.style.backgroundColor = newColor;
+    }
+}
+
+        */
+
+function changeColor(){
+    let color = document.getElementById("background").value;
+    document.body.style.backgroundColor = color;
+}
+
+function changeFcolor(){
+    let fcolor = document.getElementById("fcolor").value;
+    document.body.style.color = fcolor;
+}
+
+//CRUD
+function crud(){
+    let fname = (document.form1.fname.value).trim();
+    if (fname.length<5){
+        alert("First name must have atleast 5 characters");
+        return false;
     }
 }

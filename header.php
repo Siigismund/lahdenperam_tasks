@@ -20,7 +20,7 @@
     <title><?php echo $title ?></title>
     <link rel="stylesheet" href="/lahdenperam_tasks/styles.css">
 
-    <script src="js/site.js"></script>
+    <script src="./js/site.js"></script>
 </head>
 
 <body class="wrapper">

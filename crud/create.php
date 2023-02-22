@@ -2,9 +2,10 @@
 $title = "A simple CRUD app";
 include "../header.php";
 ?>
+<script src="../js/site.js"></script>
 <br>
 <br>
-<form method="post" action="">
+<form method="post" action="" onsubmit="return crud()" name="form1">
     <input type="text" name="fname" placeholder="First name" required> <br>
     <input type="text" name="lname" placeholder="Last name" required> <br>
     <input type="text" name="city" placeholder="City" required> <br>
